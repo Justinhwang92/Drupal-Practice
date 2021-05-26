@@ -54,7 +54,7 @@
     <div class="card-body">
       <h5 class="card-title">{{ content.field_title }}</h5>
       <p class="card-text">{{ content.field_description }}</p>
-      {# not to dispaly those 3 fields #}
+      {# not to dispaly those 3 fields again #}
       {{ content|without('field_title', 'field_description', 'field_image') }}
     </div>
     {% endblock %}

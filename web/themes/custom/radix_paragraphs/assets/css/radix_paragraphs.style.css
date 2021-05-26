@@ -529,7 +529,7 @@ mark,
   content: "\2014\A0";
 }
 
-.img-fluid {
+.img-fluid, .card img {
   max-width: 100%;
   height: auto;
 }
@@ -4260,7 +4260,7 @@ input[type=button].btn-block {
   border-radius: calc(0.25rem - 1px);
 }
 
-.card-img-top {
+.card-img-top, .card img {
   width: 100%;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
@@ -4318,7 +4318,7 @@ input[type=button].btn-block {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .card-group > .card:not(:last-child) .card-img-top,
+  .card-group > .card:not(:last-child) .card-img-top, .card-group > .card:not(:last-child) img,
 .card-group > .card:not(:last-child) .card-header {
     border-top-right-radius: 0;
   }
@@ -4330,7 +4330,7 @@ input[type=button].btn-block {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
-  .card-group > .card:not(:first-child) .card-img-top,
+  .card-group > .card:not(:first-child) .card-img-top, .card-group > .card:not(:first-child) img,
 .card-group > .card:not(:first-child) .card-header {
     border-top-left-radius: 0;
   }
@@ -9573,4 +9573,18 @@ a.text-dark:hover, a.text-dark:focus {
 
 .invisible {
   visibility: hidden !important;
+}
+
+.card-d {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.card-d .card {
+  flex: 1 0 0%;
+  margin-right: 15px;
+  margin-bottom: 0;
+  margin-left: 15px;
 }

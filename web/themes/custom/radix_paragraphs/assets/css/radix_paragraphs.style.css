@@ -9581,6 +9581,7 @@ a.text-dark:hover, a.text-dark:focus {
     flex-flow: row wrap;
     margin-left: -15px;
     margin-right: -15px;
+    margin-top: 15px;
   }
 }
 .card-d .card {

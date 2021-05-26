@@ -9575,13 +9575,14 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important;
 }
 
-.card-d {
-  display: flex;
-  flex-flow: row wrap;
-  margin-left: -15px;
-  margin-right: -15px;
+@media (min-width: 1000px) {
+  .card-d {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 }
-
 .card-d .card {
   flex: 1 0 0%;
   margin-right: 15px;

@@ -24,6 +24,7 @@
         "drupal/radix": "^4.10",
         "drupal/token": "^1.9",
         "drupal/webform": "^6.0",
+        "drupal/zuvi": "^8.1",
         "drush/drush": "^10.5"
     },
     "conflict": {
